@@ -1,4 +1,4 @@
-const navLikns = [
+const navLinks = [
     {
         id:1,
         title:"Serviços",   

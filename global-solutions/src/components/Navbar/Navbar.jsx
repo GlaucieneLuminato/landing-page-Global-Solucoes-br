@@ -37,7 +37,7 @@ function Navbar(){
                             Solicitar Orçamento
                     </button>
 
-                    <button className="flex items-center gap-2 px-6 py-3 bg-[#2d366] rounded-full text-white font-semibold hover:scale-105 transition-all duration-300">
+                    <button className="flex items-center gap-2 px-6 py-3 bg-[#25d366] rounded-full text-white font-semibold hover:scale-105 transition-all duration-300">
                         <MessageCircle size={20}/>
                         WhatsApp
                     </button>
