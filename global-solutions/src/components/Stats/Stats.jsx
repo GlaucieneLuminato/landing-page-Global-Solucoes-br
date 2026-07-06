@@ -13,9 +13,10 @@ function Stats(){
                         const Icon = item.icon;
                         return(
                         
-                        <div key={item.id} className="py-10 px-6 text-center border-b lg:border-b-0 lg-border-r last:border-r-0 border-gray-100">
+                        <div key={item.id} className="py-14 px-6 text-center border-b lg:border-b-0 lg-border-r last:border-r-0 border-gray-100">
                             <Icon 
-                            size={36}
+                            size={42}
+                            strokeWidth={1.8}
                             className="mx-auto mb-4 text-[#0f5ba8]"
                             
                             />
