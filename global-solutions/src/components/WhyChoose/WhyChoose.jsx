@@ -4,7 +4,7 @@ import WhyChooseData from "./WhyChooseData";
 
 function WhyChoose(){
     return(
-        <section className="py-24 bg-slate-50" id="diferenciais">
+        <section className="py-24 bg-[#10243f]" id="diferenciais">
             <div className="container mx-auto max-w-7xl px-6">
                 <div className="text-center mb-16">
 
@@ -12,7 +12,7 @@ function WhyChoose(){
                 className="text-blue-600 font-semibold uppercase tracking-widest">
                         Diferenciais
                 </span>
-                <h2 className="text-4xl font-bold text-center">
+                <h2 className="text-4xl font-bold text-center text-white">
                     Por que escolher a Global Soluções ?
                 </h2>
 

@@ -4,6 +4,7 @@ import Stats from "../components/Stats/Stats";
 import Services from "../components/Services/Services";
 import WhyChoose from "../components/WhyChoose/WhyChoose";
 import Process from "../components/Process/Process";
+import Testimonials from "../components/Testimonials/Testimonials";
 
 function Home(){
     return(
@@ -14,6 +15,7 @@ function Home(){
         <Services />
         <WhyChoose/>
         <Process />
+        <Testimonials />
         </>
     )
 }
