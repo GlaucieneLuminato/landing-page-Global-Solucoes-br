@@ -33,6 +33,7 @@ function BlogCard({image, category, date, title, description, link}) {
                 </p>
 
                 <a          
+                            
                             href={link}
                             target="_blank"
                             rel="noopener noreferrer"

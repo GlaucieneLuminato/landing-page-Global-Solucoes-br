@@ -7,6 +7,7 @@ import Process from "../components/Process/Process";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Companies from "../components/Companies/Companies";
 import Blog from "../components/Blog/Blog";
+import FAQ from "../components/FAQ/FAQ";
 
 function Home(){
     return(
@@ -20,6 +21,7 @@ function Home(){
         <Testimonials />
         <Companies />
         <Blog />
+        <FAQ />
         </>
     )
 }
