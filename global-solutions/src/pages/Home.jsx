@@ -8,6 +8,8 @@ import Testimonials from "../components/Testimonials/Testimonials";
 import Companies from "../components/Companies/Companies";
 import Blog from "../components/Blog/Blog";
 import FAQ from "../components/FAQ/FAQ";
+import CTA from "../components/CTA/CTA";
+import Footer from "../components/Footer/Footer";
 
 function Home(){
     return(
@@ -22,6 +24,8 @@ function Home(){
         <Companies />
         <Blog />
         <FAQ />
+        <CTA />
+        <Footer />
         </>
     )
 }
