@@ -1,9 +1,8 @@
 import {
   MapPin,
   Phone,
-  Mail,
+  MailIcon,
   HeartIcon,
-  
   MessageCircle,
   ArrowUp,
 } from "lucide-react";
@@ -122,7 +121,7 @@ function Footer() {
 
               <div className="flex items-center gap-3">
 
-                <Mail className="w-5 h-5 text-blue-400" />
+                <MailIcon className="w-5 h-5 text-blue-400" />
 
                 <span className="text-slate-300">
                   comercial@globalsolucoesbr.com

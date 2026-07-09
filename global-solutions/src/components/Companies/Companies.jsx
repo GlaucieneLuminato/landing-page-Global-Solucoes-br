@@ -24,6 +24,7 @@ function Company(){
                             {[...companyData, ...companyData].map((company, index)=>(
                              <CompanyCard 
                              key={index}
+                             logo={company.logo}
                              name={company.name}
                              
                              />
