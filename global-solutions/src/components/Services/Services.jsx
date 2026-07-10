@@ -29,7 +29,10 @@ function Services() {
                             key={service.id}
                             icon={service.icon}
                             title={service.title}
-                            description={service.description}/>
+                            description={service.description}
+                            image={service.image}
+                            />
+                            
                         ))}
                 </div>
 

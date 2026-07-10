@@ -3,39 +3,45 @@ import {Stethoscope, ClipboardList, ShieldCheck, FileText, HeartPulse, Briefcase
 const servicesData = [
     {
         id:1,
-        icon:Stethoscope,
         title:"Medicina Ocupacional",
         description:"Gestão completa da saúde ocupacional para empresas de todos os portes.",
+        icon:Stethoscope,
+        image:"/images/services/medi.trab.png"
     },
     {
         id:2,
-        icon:ClipboardList,
         title:"PCMSO",
         description:"Programa de Controle Médico de Saúde Ocupacional conforme a legislação.",
+         icon:ClipboardList,
+         image:"/images/services/pcmso.png"
     },
     {
         id:3,
-        icon:ShieldCheck,
         title:"PGR",
         description:"Gerenciamento de riscos ocupacionais com foco em prevenção.",
+         icon:ShieldCheck,
+         image:"/images/services/pgr.webp"
     },
     {
         id:4,
-        icon:FileText,
         title:"LTCAT",
         description:"Laudo Técnico das Condições Ambientais do Trabalho.",
+        icon:FileText,
+        image:"/images/services/ltcat.png"
     },
     {
         id:5,
-        icon:HeartPulse,
         title:"ASO",
         description:"Emissão de Atestado de Saúde Ocupacional para seus colaboradores.",
+         icon:HeartPulse,
+         image:"/images/services/aso.webp"
     },
     {    
         id:6,
-        icon:BriefcaseBusiness,
         title:"Consultoria SST",
         description:"Consultoria Especializada em Saúde e Segurança do Trabalho",
+        icon:BriefcaseBusiness,
+        image:"/images/services/sst.webp"
     },
 ];
 
