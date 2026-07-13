@@ -1,9 +1,12 @@
+import { useState} from "react";
 import navLinks from './navLinks';
 import {Menu, MessageCircle} from "lucide-react";
 import logo from "../../assets/images/logo.jpeg";
 
 function Navbar(){
+    const [menuOpen, setMenuOpen] = useState(false);
     return(
+        <>
         <header className="fixed top-0 left-0 w-full z-50 bg-transparent shadow-sm">
             <div className="max-w-7xl mx-auto h-24 px-6 flex items-center justify-between">
 
@@ -36,13 +39,77 @@ function Navbar(){
                     </button>
                 </div>
 
-                <button className="lg:hidden flex items-center justify-center w-12 h-12 rounded-full border border-gray-300">
+                <button 
+                aria-label="Abrir menu de navegação"
+                aria-expanded={menuOpen}
+                aria-controls="mobile-menu"
+                onClick={()=>setMenuOpen(true)}
+                className="lg:hidden flex items-center justify-center w-12 h-12 rounded-full border border-gray-300">
                     <Menu size={26}/>
                 </button>
 
             </div>
 
         </header>
+
+        {menuOpen && (
+            <div 
+            onClick={()=>setMenuOpen(false)}
+            className="fixed inset-0 bg-black/60 z-40"
+            />
+        )}
+
+        <aside id="mobile-menu" className={`fixed top-0 right-0 h-screen w-80 bg-[#0f5ba8] z-50 shadow-2xlbntransform transition-transform duration-500 ${menuOpen ? "translate-x-0" : "translate-x-full"}`}>
+            <div className="h-full flex flex-col p-8">
+                <div className="flex items-center justify-between mb-12">
+                        <img
+                        src={logo}
+                        alt="Logo Global Soluções BR"
+                        className="w-14 h-14 rounded-full"
+                        />
+
+                        <button 
+                        aria-label="Fechar menu"
+                        onClick={()=>setMenuOpen(false)}
+                        className="text-white">
+                            <close size={30} />
+                        </button>
+                </div>
+
+                <nav className="flex flex-col gap-7">
+                    {navLinks.map((link)=>(
+                        <a 
+                        key={link.id}
+                        href={link.href}
+                        onClick={()=>setMenuOpen(false)}
+                        className="text-white text-lg font-medium hover:translate-x-2 transition-all duration-300"
+                        >
+                                {link.title}
+                        </a>
+                    ))}
+
+                </nav>
+
+                <div className="mt-auto flex flex-col gap-4">
+                    <button
+                    aria-label="Solicitar Orçamento"
+                    className="w-full py-4 rounded-full bg-white text-[#0f5ba8] font-medium hover:scale-105 transition-all duration-300"
+                    >
+                                Solicitar Orçamento
+                    </button>
+
+                    <button
+                    aria-label="Entrar em contato pelo Whatsapp"
+                    className="w-full py-4 rounded-full bg-[#25d366] text-white font-semibold flex items-center justify-center gap-2 hover:scale-105 transition-all duration-300 "
+                    >
+                            <whatsApp size={20} />
+                    </button>
+
+                </div>
+
+            </div>
+        </aside>
+        </>
 
     );
 
