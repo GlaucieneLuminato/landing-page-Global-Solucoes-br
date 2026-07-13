@@ -4,7 +4,7 @@ import blogData from "./BlogData";
 
 function Blog(){
     return(
-        <section className="bg-slate-50 py-24">
+        <section className="bg-slate-50 py-24" id="blog" data-aos="fade-up">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
 

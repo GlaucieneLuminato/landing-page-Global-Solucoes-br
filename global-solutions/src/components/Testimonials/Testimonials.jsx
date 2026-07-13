@@ -3,7 +3,7 @@ import TestimonialsData from "./TestimonialsData";
 
 function Testimonials(){
     return(
-        <section className="bg-[#10243f] py-24">
+        <section className="bg-[#10243f] py-24" data-aos="fade-up">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
                     <span className="text-blue-400 uppercase tracking-widest font-semibold">

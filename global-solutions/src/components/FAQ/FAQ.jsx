@@ -3,7 +3,7 @@ import faqData from "./FAQData";
 
 function FAQ(){
     return(
-        <section className="bg-[#1e293b] py-24">
+        <section className="bg-[#1e293b] py-24" data-aos="fade-up">
             <div className="max-w-5xl mx-auto px-6">
 
                 <div className="text-center mb-14">

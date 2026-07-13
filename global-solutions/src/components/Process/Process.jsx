@@ -3,7 +3,7 @@ import ProcessData from "./ProcessData";
 
 function Process(){
     return(
-        <section className="py-24 bg-slate-50">
+        <section className="py-24 bg-slate-50" id="como-funciona" data-aos="fade-right">
             <div className=" mx-auto max-w-7xl px-6">
                 <div className="text-center mb-16">
                     <span className="text-blue-600 uppercase tracking-widest font-semibold">

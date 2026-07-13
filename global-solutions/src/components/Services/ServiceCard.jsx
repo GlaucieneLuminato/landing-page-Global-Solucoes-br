@@ -1,6 +1,7 @@
 function ServiceCard({ icon: Icon, title, description, image }) {
   return (
     <div
+    data-aos="fade-up"
       className="relative h-[340px] rounded-3xl overflow-hidden group transition-all duration-500 hover:scale-[1.02]"
       style={{
         backgroundImage: `url(${image})`,

@@ -190,11 +190,13 @@ function Footer() {
             © 2026 Global Soluções. Todos os direitos reservados.
           </p>
 
-          <button
+          <a
+            href="#home"
+            aria-label="Voltar ao início da página"
             className="w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 transition-all duration-300 hover:scale-110 flex items-center justify-center"
           >
             <ArrowUp className="w-5 h-5" />
-          </button>
+          </a>
 
         </div>
 

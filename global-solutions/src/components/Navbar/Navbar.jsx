@@ -1,6 +1,6 @@
 import { useState} from "react";
 import navLinks from './navLinks';
-import {Menu, MessageCircle} from "lucide-react";
+import {Menu, MessageCircle, X} from "lucide-react";
 import logo from "../../assets/images/logo.jpeg";
 
 function Navbar(){
@@ -72,7 +72,7 @@ function Navbar(){
                         aria-label="Fechar menu"
                         onClick={()=>setMenuOpen(false)}
                         className="text-white">
-                            <close size={30} />
+                            <X size={30} />
                         </button>
                 </div>
 
@@ -98,11 +98,16 @@ function Navbar(){
                                 Solicitar Orçamento
                     </button>
 
-                    <button
-                    aria-label="Entrar em contato pelo Whatsapp"
-                    className="w-full py-4 rounded-full bg-[#25d366] text-white font-semibold flex items-center justify-center gap-2 hover:scale-105 transition-all duration-300 "
-                    >
-                            <whatsApp size={20} />
+                    <button>
+                        <a
+                            href="https://wa.me/5521968401903"
+                            target="_blank"
+                            aria-label="Entrar em contato pelo Whatsapp"
+                            className="w-full py-4 rounded-full bg-[#25d366] text-white font-semibold flex items-center justify-center gap-2 hover:scale-105 transition-all duration-300 "
+                        >
+                                WhatsApp
+                        </a>
+                       
                     </button>
 
                 </div>

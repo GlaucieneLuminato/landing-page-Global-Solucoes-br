@@ -4,7 +4,7 @@ import servicesData from "./servicesData";
 
 function Services() {
     return(
-        <section id="services" className="py-28 bg-slate-50">
+        <section id="servicos" className="py-28 bg-slate-50" >
 
             <div className="max-w-7xl mx-auto px-6">
 

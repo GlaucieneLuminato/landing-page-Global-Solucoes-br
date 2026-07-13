@@ -4,7 +4,7 @@ import WhyChooseData from "./WhyChooseData";
 
 function WhyChoose(){
     return(
-        <section className="py-24 bg-[#10243f]" id="diferenciais">
+        <section className="py-24 bg-[#10243f]" id="diferenciais" data-aos="fade-up">
             <div className="container mx-auto max-w-7xl px-6">
                 <div className="text-center mb-16">
 
