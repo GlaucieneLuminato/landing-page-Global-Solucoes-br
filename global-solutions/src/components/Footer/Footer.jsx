@@ -6,6 +6,7 @@ import {
   MessageCircle,
   ArrowUp,
 } from "lucide-react";
+import {FaLinkedin} from "react-icons/fa";
 import logo from "../../assets/images/logo.jpeg";
 
 function Footer() {
@@ -161,14 +162,19 @@ function Footer() {
                 </a>
 
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/company/globalsolucoesbr/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-slate-800 hover:bg-blue-600 transition-all duration-300 flex items-center justify-center"
                 >
-                 
+
+                    <FaLinkedin className="w-5 h-5"/>                 
                 </a>
 
                 <a
                   href="https://wa.me/5521968401903"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-slate-800 hover:bg-green-600 transition-all duration-300 flex items-center justify-center"
                 >
                   <MessageCircle className="w-5 h-5" />

@@ -91,12 +91,15 @@ function Navbar(){
                 </nav>
 
                 <div className="mt-auto flex flex-col gap-4">
-                    <button
+                    <a
+                    href="https://form.jotform.com/251565243786061"
+                    rel="noopener noreferrer"
+                    target="_blank"
                     aria-label="Solicitar Orçamento"
-                    className="w-full py-4 rounded-full bg-white text-[#0f5ba8] font-medium hover:scale-105 transition-all duration-300"
+                    className=" text-center w-full py-4 rounded-full bg-white text-[#0f5ba8] font-medium hover:scale-105 transition-all duration-300"
                     >
                                 Solicitar Orçamento
-                    </button>
+                    </a>
 
                     <button>
                         <a

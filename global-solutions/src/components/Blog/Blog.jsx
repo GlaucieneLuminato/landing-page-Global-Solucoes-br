@@ -31,6 +31,7 @@ function Blog(){
                             date={post.date}
                             title={post.title}
                             description={post.description}
+                            link={post.link}
                             
                             
                             />

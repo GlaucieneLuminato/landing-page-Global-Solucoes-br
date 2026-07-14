@@ -23,9 +23,9 @@ function CTA() {
                 <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-5">
 
                     <a 
-                    href="https://wa.me/5521968401903"
-                    target="_blank"
+                     href="https://form.jotform.com/251565243786061"
                     rel="noopener noreferrer"
+                    target="_blank"
                     className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:scale-105">
                         Solicitar uma Proposta
                         <ArrowRight size={20}/>

@@ -34,9 +34,14 @@ function ServiceCard({ icon: Icon, title, description, image }) {
         </p>
 
        
-        <button className="mt-6 text-white font-semibold transition-all duration-300 group-hover:translate-x-2">
+        <a 
+       
+        href="https://form.jotform.com/251565243786061"
+        rel="noopener noreferrer"
+        target="_blank"
+        className="mt-6 text-white font-semibold transition-all duration-300 group-hover:translate-x-2">
           Saiba Mais →
-        </button>
+        </a>
 
       </div>
     </div>
