@@ -3,6 +3,7 @@ import aos from "aos";
 import "aos/dist/aos.css";
 import {useEffect} from "react";
 
+
 function App(){
   useEffect(()=>{
     aos.init({
